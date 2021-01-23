@@ -77,7 +77,7 @@
 
 - ESLint
 - Prettier
-- Webpack
+- webpack
 
 ### その他
 

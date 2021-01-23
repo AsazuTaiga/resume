@@ -1,3 +1,30 @@
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [職務経歴書](#職務経歴書)
+  - [職務経歴概要](#職務経歴概要)
+  - [保有資格](#保有資格)
+  - [活かせる経験・知識・技術](#活かせる経験知識技術)
+    - [言語](#言語)
+    - [フロントエンドライブラリ / フレームワーク](#フロントエンドライブラリ-フレームワーク)
+    - [ネイティブアプリケーション](#ネイティブアプリケーション)
+    - [DevOps](#devops)
+    - [その他](#その他)
+    - [未経験だが興味はあるもの](#未経験だが興味はあるもの)
+  - [職務経歴詳細](#職務経歴詳細)
+    - [2019年4月-6月](#2019年4月-6月)
+    - [2019年7月-2020年1月](#2019年7月-2020年1月)
+    - [2020年2月-6月](#2020年2月-6月)
+    - [2020年7月-現在](#2020年7月-現在)
+    - [2020年12月-現在](#2020年12月-現在)
+  - [アウトプット](#アウトプット)
+    - [各種アカウント](#各種アカウント)
+    - [個人開発](#個人開発)
+
+<!-- /code_chunk_output -->
+
 # 職務経歴書
 
 2021年1月19日現在
@@ -49,7 +76,7 @@
 - デザイナー・コーダーとの協業
 - 積極的に知識をインプット・アウトプットし、自己成長する能力
 
-## 未経験だが興味はあるもの
+### 未経験だが興味はあるもの
 
 - Blitz.js
 - Go
@@ -139,3 +166,18 @@ CI/CD：AWS CodeBuild, Amazon EventBridge
 **【実績】**
 React + TypeScript + CSS Modeules(SCSS)を利用したフロントエンド環境をテンプレート化し、社内GitLabにて展開。
 AWSクラウド内で完結したCI/CD環境をクライアントへの提案に盛り込み、案件獲得に寄与。また、実際に構築した際のノウハウを社内に展開。
+
+## アウトプット
+
+### 各種アカウント
+
+- GitHub <https://github.com/AsazuTaiga>
+- Qiita <https://qiita.com/AsazuTaiga>
+- Zenn <https://zenn.dev/asazutaiga>
+- Speaker Deck <https://speakerdeck.com/asazutaiga>
+
+### 個人開発
+
+- ブログ<https://coincidence.netlify.app/>
+- 話題ガチャ<https://naniga-derukana.netlify.app/>
+- 季語別俳句帳（※制作中。制作状況は<https://zenn.dev/asazutaiga/articles/2046b0fbb1e934>参照）

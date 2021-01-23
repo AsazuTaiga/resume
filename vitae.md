@@ -23,7 +23,7 @@
 - HTML
 - CSS
 - SCSS
-- Java（Android）
+- Java
 
 ### ライブラリ・フレームワーク
 
@@ -33,6 +33,10 @@
 - jQuery
 - Bootstarp
 - Bulma
+
+### ネイティブアプリケーション
+
+- Android
 
 ### DevOps
 

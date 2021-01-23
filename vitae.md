@@ -179,6 +179,6 @@ AWSクラウド内で完結したCI/CD環境をクライアントへの提案に
 
 ### 個人開発
 
-- ブログ<https://coincidence.netlify.app/>
-- 話題ガチャ<https://naniga-derukana.netlify.app/>
-- 季語別俳句帳（※制作中。制作状況は<https://zenn.dev/asazutaiga/articles/2046b0fbb1e934>参照）
+- ブログ <https://coincidence.netlify.app/>
+- 話題ガチャ <https://naniga-derukana.netlify.app/>
+- 季語別俳句帖（※制作中。制作状況は<https://zenn.dev/asazutaiga/articles/2046b0fbb1e934>参照）

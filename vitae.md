@@ -10,7 +10,8 @@
     - [言語](#言語)
     - [フロントエンドライブラリ / フレームワーク](#フロントエンドライブラリ-フレームワーク)
     - [ネイティブアプリケーション](#ネイティブアプリケーション)
-    - [DevOps](#devops)
+    - [AWS](#aws)
+    - [開発環境](#開発環境)
     - [その他](#その他)
     - [未経験だが興味はあるもの](#未経験だが興味はあるもの)
   - [職務経歴詳細](#職務経歴詳細)
@@ -66,9 +67,17 @@
 
 - Android
 
-### DevOps
+### AWS
 
-- AWS上でのCI/CD環境構築
+- CI/CD環境構築(CodeBuild, CodePipelineほか)
+- ホスティング環境構築(S3, CloudFront, Route53)
+- 簡単なREST APIの設計・構築(API Gateway, Lambda, DynamoDB)
+
+### 開発環境
+
+- ESLint
+- Prettier
+- Webpack
 
 ### その他
 

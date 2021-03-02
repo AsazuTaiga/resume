@@ -181,6 +181,7 @@ AWSクラウド内で完結したCI/CD環境をクライアントへの提案に
 
 - ブログ <https://coincidence.netlify.app/>
 - 話題ガチャ <https://naniga-derukana.netlify.app/>
+- Kuawase（Androidアプリ・ストア配信無） <https://github.com/AsazuTaiga/Kuawase>
 - 季語別俳句帖（※制作中。制作状況は<https://zenn.dev/asazutaiga/articles/2046b0fbb1e934>参照）
 
 以上

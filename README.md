@@ -118,4 +118,8 @@ Android車載DA（カーナビ）共通UIライブラリ開発
 
 Sky株式会社に新卒入社。C言語, Java, Androidアプリ開発の研修。
 
+## omake
+
+思想 <https://petite-grass-e20.notion.site/Asazu-Taiga-096963096b924e209054a9f670bd7095>
+
 以上

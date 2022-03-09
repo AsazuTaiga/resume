@@ -1,187 +1,121 @@
 # 職務経歴書
 
-2021年2月25日現在  
-淺津大雅
-
-## 職務経歴概要
-
-2019年4月、Sky株式会社に新卒入社。  
-同年7月より、Android車載DA（カーナビ）の開発。  
-2020年2月より、IoT家電のPoC開発においてフロントエンド開発。  
-2020年7月より現在まで、国内大手メーカーの社内向けソリューションフロントエンド開発。  
-また、並行して2020年12月から2月まで、観光ICTソリューションのフロントエンド設計およびCI/CD環境の設計・構築。  
-2月以降は、検品システムのフロントエンド設計・開発リーダーを担当。  
-
-## 保有資格
-
-- ディジタル技術検定2級 情報部門
+2022年3月9日現在  
+淺津大雅（あさづ　たいが）
 
 ## 活かせる経験・知識・技術
 
+基本的な技術スタックはフロントエンド寄りです。
+
 ### 言語
 
-- TypeScript
-- JavaScript
-- HTML
-- CSS
-- SCSS
-- Java
+-   TypeScript, JavaScript
+-   HTML, CSS, Sass
+-   Java
 
-### JSライブラリ / フレームワーク
+### ライブラリ・フレームワーク
 
-- React
-- Next.js
-- Vue.js
-- jQuery
+-   React, Next.js, Preact
+-   Vue.js
+-   Svelte
+-   MUI, Chakra UIE
+-   Tailwind CSS
+-   Jest, Cypress, Storybook
+-   ApolloClient, axios ほか
 
-### CSSライブラリ / フレームワーク
+### プログラミング以外のスキル（一例）
 
-- Bootstarp
-- Bulma
-
-### ネイティブアプリケーション
-
-- Android
-
-### AWS
-
-- CI/CD環境構築(CodeBuild, CodePipelineほか)
-- ホスティング環境構築(S3, CloudFront, Route53)
-- 簡単なREST APIの設計・構築(API Gateway, Lambda, DynamoDB)
-
-### 開発環境
-
-- ESLint
-- Prettier
-- webpack
-
-### その他
-
-- チーム開発
-- リモートワークでの共同開発（2020年4月〜現在）
-- デザイナー・コーダーとの協業
-- 積極的に知識をインプット・アウトプットし、自己成長する能力
-
-### 未経験だが興味はあるもの
-
-- Blitz.js
-- Go
-- Python
-- Rust
-- yew
-- WASM
-
-## 職務経歴詳細
-
-### 2019年4月-6月
-
-Sky株式会社に新卒入社。C言語、Java、Androidアプリ開発の研修。
-
-### 2019年7月-2020年1月
-
-Android車載DA（カーナビ）共通UIライブラリ開発に従事。カスタムビューの実装・テストを担当。
-
-**【チーム規模】**  
-6名（マネージャー1名、リーダー1名、メンバー4名）  
-
-**【使用技術】**  
-言語：Java  
-OS：Android  
-ライブラリ：JUnit, Espresso  
-構成管理：Git, Gerrit  
-
-**【ロール】**  
-メンバー  
-
-### 2020年2月-6月
-
-IoT調理家電のPoC開発において、レシピ作成Webアプリ開発に従事。レシピデータを作成するツール（フロントエンド）を実装。クライアント側デザイナーとの協業を経験。
-
-**【チーム規模】**  
-2名（フロントエンド1名、バックエンド1名）
-
-**【使用技術】**  
-言語：JavaScript, HTML, CSS  
-ライブラリ：jQuery, BootStrap  
-構成管理：Git, GitHub Enterprise  
-
-**【ロール】**  
-フロントエンド
-
-**【実績】**  
-クライアント（デザイナー）との仕様検討、実装
-
-### 2020年7月-現在
-
-国内大手メーカーの社内向け各種ソリューション（ダッシュボード、チャットボット、チケット管理システム等）のフロントエンドの実装および不具合対応を担当。デザイナー・コーダーと協業でのフロントエンド開発を経験。
-
-**【チーム規模】**  
-5名（リーダー1名、サブリーダー1名、実装メンバー2名、デザイナーメンバー1名）
-
-**【使用技術】**  
-言語：JavaScript, HTML, SCSS  
-ライブラリ：jQuery  
-クラウド：SharePointOnline（ホスティング機能およびRESTサービスを利用）  
-構成管理：Git, GitBucket  
-
-**【ロール】**  
-サブリーダー  
-
-**【実績】**  
-複数のサービスの横断的な不具合対応、デザイナーメンバーへのGitレクチャー、開発メンバーのコードレビュー等。
-また、同時期にチューターとして新人メンバーの育成・指導に従事。  
-
-### 2020年12月-2月
-
-観光ICTソリューション業務（レストラン検索、地図、実店舗でのスタンプ機能等）においてフロントエンド設計およびCI/CD環境設計・導入を担当。  
-
-**【チーム規模】**  
-4名（リーダー1名、メンバー2名、補助メンバー1名）  
-
-**【使用技術】**  
-言語：TypeScript, SCSS  
-ライブラリ：React  
-モジュールバンドラ：webpack  
-CI/CD：AWS CodeBuild, Amazon EventBridge  
-ホスティング：Amazon S3  
-構成管理：Git, AWS CodeCommit  
-
-**【ロール】**  
-補助メンバー  
-
-**【実績】**  
-React + TypeScript + CSS Modeules(SCSS)を利用したフロントエンド環境をテンプレート化し、社内GitLabにて展開。  
-AWSクラウド内で完結したCI/CD環境をクライアントへの提案に盛り込み、案件獲得に寄与。また、実際に構築した際のノウハウを社内に展開。  
-
-### 2021年2月-現在
-
-検品システム業務（QRコードを利用した発注情報と検品情報の紐付けシステム）においてフロントエンドの設計・開発リーダーを担当。
-
-**【チーム規模】**  
-2名（リーダー1名、メンバー1名）
-
-**【使用技術】**  
-言語：TypeScript, SCSS  
-ライブラリ：React  
-モジュールバンドラ：webpack
-
-**【ロール】**  
-フロントエンドリーダー
+-   抽象的な企画をもとに, 機能仕様書・設計書, Figmaによる画面デザインまで落とし込む
+-   UXと収益性を考慮したうえでのサービス改善提案, システム改修計画立案
+-   システム移行に伴う既存機能洗い出し・工期見積もり・移行計画の策定・進捗管理
+-   開発メンバー指導・コードレビュー ほか
 
 ## アウトプット
 
 ### 各種アカウント
 
-- GitHub <https://github.com/AsazuTaiga>
-- Qiita <https://qiita.com/AsazuTaiga>
-- Zenn <https://zenn.dev/asazutaiga>
-- Speaker Deck <https://speakerdeck.com/asazutaiga>
+-   GitHub <https://github.com/AsazuTaiga>
+-   Twitter <https://twitter.com/asazutaiga>
+-   Qiita <https://qiita.com/AsazuTaiga>
+-   Zenn <https://zenn.dev/asazutaiga>
+-   Speaker Deck <https://speakerdeck.com/asazutaiga>
 
 ### 個人開発
 
-- ブログ <https://coincidence.netlify.app/>
-- 話題ガチャ <https://naniga-derukana.netlify.app/>
-- Kuawase（Androidアプリ・ストア配信無） <https://github.com/AsazuTaiga/Kuawase>
-- 季語別俳句帖（※制作中。制作状況は<https://zenn.dev/asazutaiga/articles/2046b0fbb1e934>参照）
+-   ブログ <https://asazutaiga.com/>：Next.js（SSG）, Tailwind CSS
+-   旅程シェア <https://www.itineraryshare.app/>：React, Chakra UI, Vite
+
+## 職務経歴概要
+
+2019年4月, Sky株式会社に新卒入社。  
+同年7月より, Android車載DA（カーナビ）の開発。  
+2020年2月より, IoT家電のPoC開発においてフロントエンド開発。
+同年7月より, 国内大手メーカーの社内向けソリューションフロントエンド開発。
+2021年2月より, QRコードを用いた検品システム開発のフロントエンドリーダー。
+同年5月, Sky株式会社を退職。
+同年6月, 株式会社トリドリに入社。[toridori marketing](https://top-marketing.toridori.me)のフロントエンド実装・サービス設計等を担当。
+同年10月より, プラットフォーム事業部スタッフ管理画面のリニューアル計画リーダー。
+
+## 職務経歴詳細
+
+### (toridori)2021年10月-
+
+プラットフォーム事業部のスタッフが利用する管理画面のリニューアル
+
+| チーム構成              | 担当                                | 使用技術                                                                                                                            |
+| :----------------- | :-------------------------------- | :------------------------------------------------------------------------------------------------------------------------------ |
+| 5名（フロント2, バックエンド3） | リーダー, 技術選定, 仕様策定, 進捗管理, フロントエンド実装 | TypeScript, React, Next.js, MUI, ApolloClient, Node.js, ApolloServer, GraphQL Code Generator, Docker, GitHub Actions, Storybook |
+
+### (toridori)2021年6月-
+
+[toridori marketing](https://top-marketing.toridori.me)の開発・保守
+
+| チーム構成 | 担当                              | 仕様技術                                                                     |
+| :---- | :------------------------------ | :----------------------------------------------------------------------- |
+| 2名    | フロントエンド実装, 仕様策定, 進捗管理, スクラムマスター | TypeScript, React, Next.js, MUI, axios,  Docker, GitHub ActionsStorybook |
+
+### (Sky)2021年2月-2021年5月
+
+検品システム（QRコードを利用した発注情報と検品情報の紐付けシステム）開発
+
+| チーム構成 | 担当                 | 使用技術                       |
+| :---- | :----------------- | :------------------------- |
+| 2名    | フロントエンド設計・実装, リーダー | TypeScript, React, Webpack |
+
+### (Sky)2020年12月-2021年2月
+
+観光ICTソリューション開発（レストラン検索, 地図, 実店舗でのスタンプ機能等）
+
+| チーム構成 | 担当              | 使用技術                                                                      |
+| :---- | :-------------- | :------------------------------------------------------------------------ |
+| 4名    | フロントエンド設計, インフラ | TypeScript, React, AWS CodeBuild, AWS EventBridge, AWS S3, AWS CodeCommit |
+
+### (Sky)2020年7月-2021年5月
+
+国内大手メーカーの社内向け各種ソリューション開発（ダッシュボード, チャットボット, チケット管理システム等）
+
+| チーム構成         | 担当                | 使用技術                                |
+| :------------ | :---------------- | :---------------------------------- |
+| 5名（うちデザイナー1名） | フロントエンド実装, サブリーダー | JavaScript, SCSS, jQuery, GitBucket |
+
+### (Sky)2020年2月-6月
+
+IoT調理家電のPoC開発（レシピ作成Webアプリ）
+
+| チーム構成          | 担当              | 使用技術                                  |
+| :------------- | :-------------- | :------------------------------------ |
+| 5名(顧客3名, 自社2名) | 仕様検討, フロントエンド実装 | JavaScript, jQeury, BootStrap, GitHub |
+
+### (Sky)2019年7月-2020年1月
+
+Android車載DA（カーナビ）共通UIライブラリ開発
+
+| チーム構成 | 担当            | 使用技術                                  |
+| :---- | :------------ | :------------------------------------ |
+| 6名    | コンポーネント実装・テスト | Androd, Java, JUnit, Espresso, Gerrit |
+
+### (Sky)2019年4月-6月
+
+Sky株式会社に新卒入社。C言語, Java, Androidアプリ開発の研修。
 
 以上

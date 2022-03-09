@@ -18,7 +18,7 @@
 -   React, Next.js, Preact
 -   Vue.js
 -   Svelte
--   MUI, Chakra UIE
+-   MUI, Chakra UI
 -   Tailwind CSS
 -   Jest, Cypress, Storybook
 -   ApolloClient, axios ほか

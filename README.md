@@ -1,125 +1,137 @@
-# 職務経歴書
+2023年8月19日現在  
 
-2022年3月9日現在  
-淺津大雅（あさづ　たいが）
+# 基本情報 (Personal Information)
+## 氏名 (Full Name)
+淺津大雅 Asazu Taiga
+## 連絡先 (Contact Information)
+- taiga.asazu[at]icloud[dot]com
+- X (Twitter): [@asazutaiga](https://twitter.com/asazutaiga)
+## LinkedIn / GitHub リンク (LinkedIn/GitHub Links)
+- [LinkedIn](https://www.linkedin.com/in/%E5%A4%A7%E9%9B%85-%E6%B7%BA%E6%B4%A5-51b53b22b/)
+- [GitHub](https://github.com/AsazuTaiga)
 
-## 活かせる経験・知識・技術
+# 職務概要 (Professional Summary)
+ToB向けの情報量の多い管理画面の設計、実装、テスト、及びレビューを中心に、フロントエンド開発を手がける。TypeScriptとReactを用いた開発に経験を有し、情報の集約と可視化を行うユーザーインターフェースの構築に注力している。バックエンドの実装やFigmaを使用したデザインにも取り組む。
 
-基本的な技術スタックはフロントエンド寄りです。
+Experienced front-end engineer specializing in the design, implementation, testing, and review of data-intensive management interfaces, particularly for B2B clients. Proficient in harnessing the power of TypeScript and React to build dynamic and user-centric interfaces. Additionally, skilled in backend implementations and adept at using design tools like Figma.
 
-### 言語
+# スキルセット (Skill Set)
+## 技術スキル (Technical Skills)
+### 言語・フレームワーク (Languages & Frameworks)
 
--   TypeScript, JavaScript
--   HTML, CSS, Sass
--   Java
+- TypeScript
+- React
+- Next.js
+- Vue.js
+- Go (基本的な知識/少しの経験 | Basic knowledge / Limited experience)
+- Java (基本的な知識/少しの経験 | Basic knowledge / Limited experience)
+- Android (基本的な知識/少しの経験 | Basic knowledge / Limited experience)
 
-### ライブラリ・フレームワーク
+### ライブラリ & ツール (Libraries & Tools)
 
--   React, Next.js, Preact
--   Vue.js
--   Svelte
--   MUI, Chakra UI
--   Tailwind CSS
--   Jest, Cypress, Storybook
--   ApolloClient, axios ほか
+- Apollo Client
+- GraphQL
+- jotai
+- MUI
+- Chakra UI
+- i18n
 
-### プログラミング以外のスキル（一例）
+### デザイン (Design)
 
--   抽象的な企画をもとに, 機能仕様書・設計書, Figmaによる画面デザインまで落とし込む
--   UXと収益性を考慮したうえでのサービス改善提案, システム改修計画立案
--   システム移行に伴う既存機能洗い出し・工期見積もり・移行計画の策定・進捗管理
--   開発メンバー指導・コードレビュー ほか
+- Figma
 
-## アウトプット
+### 新技術の取り込み (Adoption of New Technologies)
 
-### 各種アカウント
+- 新しいフレームワークの迅速な導入と試用能力: Qwik, Astro等 (Quick integration and trial ability of new frameworks, such as Astro and Qwik)
 
--   GitHub <https://github.com/AsazuTaiga>
--   Twitter <https://twitter.com/asazutaiga>
--   Qiita <https://qiita.com/AsazuTaiga>
--   Zenn <https://zenn.dev/asazutaiga>
--   Speaker Deck <https://speakerdeck.com/asazutaiga>
+## プロジェクト・チームマネジメント (Project & Team Management)
 
-### 個人開発
+### コミュニケーション (Communication)
 
--   ブログ <https://asazutaiga.com/>：Next.js（SSG）, Tailwind CSS
--   旅程シェア <https://www.itineraryshare.app/>：React, Chakra UI, Vite
+- オープンなタスク管理とプルリクエストを用いたチーム内のコミュニケーション強化 (Strengthening team communication using open task management and pull requests)
+- 非技術者との機能設計時に技術的制約の明確な伝達 (Clear communication of technical constraints during feature design with non-technical members)
 
-## 職務経歴概要
+### リーダーシップ (Leadership)
 
-2019年4月, Sky株式会社に新卒入社。  
-同年7月より, Android車載DA（カーナビ）の開発。  
-2020年2月より, IoT家電のPoC開発においてフロントエンド開発。  
-同年7月より, 国内大手メーカーの社内向けソリューションフロントエンド開発。  
-2021年2月より, QRコードを用いた検品システム開発のフロントエンドリーダー。  
-同年5月, Sky株式会社を退職。  
-同年6月, 株式会社トリドリに入社。[toridori marketing](https://top-marketing.toridori.me)のフロントエンド実装・サービス設計等を担当。   
-同年10月より, プラットフォーム事業部スタッフ管理画面のリニューアル計画リーダー。 
+- フロントエンドの専任エンジニアとして新サービスの画面実装主導 (Leading new service screen implementation as the dedicated frontend engineer)
+- 新人エンジニアの育成とともにプロジェクト完遂 (Completing projects while nurturing new engineers)
 
-## 職務経歴詳細
+### アジャイル・スクラム (Agile & Scrum)
 
-### (toridori)2021年10月-
+- スプリントの長さやストーリーポイントの柔軟な調整経験 (Experience in flexibly adjusting sprint lengths and story point allocations)
+- スクラムマスターからの学びを活用したチーム開発 (Team development leveraging learnings from a scrum master)
 
-プラットフォーム事業部のスタッフが利用する管理画面のリニューアル
+## 個人の強み (Personal Strengths)
+### 問題解決能力 (Problem-solving ability)
+- 問題を細分化し、優先度に応じた迅速な対応 (Breaking down problems and responding quickly based on priorities)
 
-| チーム構成              | 担当                                | 使用技術                                                                                                                            |
-| :----------------- | :-------------------------------- | :------------------------------------------------------------------------------------------------------------------------------ |
-| 5名（フロント2, バックエンド3） | リーダー, 技術選定, 仕様策定, 進捗管理, フロントエンド実装 | TypeScript, React, Next.js, MUI, ApolloClient, Node.js, ApolloServer, GraphQL Code Generator, Docker, GitHub Actions, Storybook |
+### 対人関係スキル (Interpersonal Skills)
 
-### (toridori)2021年6月-
+- 意見の対立を双方の理解を得て解決する能力 (Ability to resolve differing opinions by gaining mutual understanding)
 
-[toridori marketing](https://top-marketing.toridori.me)の開発・保守
+### 自己管理能力 (Self-management ability)
 
-| チーム構成 | 担当                              | 使用技術                                                                     |
-| :---- | :------------------------------ | :----------------------------------------------------------------------- |
-| 2名    | フロントエンド実装, 仕様策定, 進捗管理, スクラムマスター | TypeScript, React, Next.js, MUI, axios,  Docker, GitHub ActionsStorybook |
+- タスクの細分化と適切なスコープ設定 (Breaking down tasks and setting appropriate scopes)
+- 難航するタスクへのアプローチと対応 (Approaching and responding to challenging tasks)
 
-### (Sky)2021年2月-2021年5月
+### 継続的学習 (Continuous Learning)
 
-検品システム（QRコードを利用した発注情報と検品情報の紐付けシステム）開発
+- React公式ドキュメントの輪読会主催 (Co-hosting React official documentation reading circle)
+- 新技術の導入と試用 (Introducing and trying out new technologies)
+- コンピューターサイエンスへの継続的な興味と学び (Continuous interest and learning in computer science)
 
-| チーム構成 | 担当                 | 使用技術                       |
-| :---- | :----------------- | :------------------------- |
-| 2名    | フロントエンド設計・実装, リーダー | TypeScript, React, Webpack |
+### 言語能力 (Language Skills):
 
-### (Sky)2020年12月-2021年2月
+- 基本的な英語の読み書きの能力 (Basic reading and writing skills in English)
+- UI英語表現に関する興味と経験 (Interest and experience in English expression for user interfaces)
+ 
+# 職務経歴 / Professional Experience
 
-観光ICTソリューション開発（レストラン検索, 地図, 実店舗でのスタンプ機能等）
 
-| チーム構成 | 担当              | 使用技術                                                                      |
-| :---- | :-------------- | :------------------------------------------------------------------------ |
-| 4名    | フロントエンド設計, インフラ | TypeScript, React, AWS CodeBuild, AWS EventBridge, AWS S3, AWS CodeCommit |
+## JADE
+- **位置 / Location**: 秋葉原, 東京 / Akihabara, Tokyo
 
-### (Sky)2020年7月-2021年5月
+| 期間 / Period       | 役職 / Position                     | プロジェクト / Project | 使用技術 / Technologies                                 | チーム構成 / Team                                                                                                                                 | 主な職務内容 / Key Responsibilities  |
+|:------------------:|:----------------------------------:|:---------------------:|:------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------:|
+| 2022年4月-2022年12月 | 副業・フロントエンドエンジニア / Part-time Front-end Developer  | ツール開発 / Tool Development | TypeScript, Next.js, next-i18next, Apollo Client, GraphQL, Chakra UI, Go, gqlgen | フロントエンド1 (Front-end x1), バックエンド(リーダー)1 (Back-end Leader x1), プロダクトオーナー1 (Product Owner x1), デザイナー1 (Designer x1), データエンジニア1 (Data Engineer x1) + 副業数名 (Part-time Several) | フロントエンドの設計・実装 / Front-end Design & Implementation |
+| 2023年1月-現在      | 正社員・フロントエンドエンジニア / Full-time Front-end Developer | ツール開発 / Tool Development | TypeScript, Next.js, Apollo Client, GraphQL, Chakra UI, Go, gqlgen | フロントエンド1 (Front-end x1), バックエンド(リーダー)1 (Back-end Leader x1), プロダクトオーナー1 (Product Owner x1), デザイナー1 (Designer x1), データエンジニア1 (Data Engineer x1) + 副業数名 (Part-time Several) | フロントエンドの設計・実装 / Front-end Design & Implementation |
 
-国内大手メーカーの社内向け各種ソリューション開発（ダッシュボード, チャットボット, チケット管理システム等）
+## toridori
 
-| チーム構成         | 担当                | 使用技術                                |
-| :------------ | :---------------- | :---------------------------------- |
-| 5名（うちデザイナー1名） | フロントエンド実装, サブリーダー | JavaScript, SCSS, jQuery, GitBucket |
+- **位置 / Location**: 渋谷, 東京 / Shibuya, Tokyo
 
-### (Sky)2020年2月-6月
+| 期間 / Period | 役職 / Position | プロジェクト / Project | 使用技術 / Technologies | チーム構成 / Team | 主な職務内容 / Key Responsibilities |
+|:------------:|:---------------:|:----------------------:|:-----------------------:|:----------------:|:--------------------------------:|
+| 2021年10月-2022年11月 | リーダー, フロントエンド開発者 / Leader, Front-end Developer | プラットフォーム事業部スタッフ用管理画面のリニューアル / Renewal of Management Interface Used by Platform Division Staff | TypeScript, React, Next.js, MUI, ApolloClient, Node.js, ApolloServer, GraphQL Code Generator, Docker, GitHub Actions, Storybook | 5名 (フロントエンド2, バックエンド3) / 5 members (2 Front-end, 3 Back-end) | リーダーシップ, 技術選定, 仕様策定, 進捗管理, フロントエンド実装 / Leadership, technology selection, specification formulation, progress management, front-end implementation |
+| 2021年6月-2022年11月 | フロントエンド開発者, スクラムマスター / Front-end Developer, Scrum Master | [toridori marketing](https://top-marketing.toridori.me)の開発・保守 / Development & Maintenance of toridori marketing | TypeScript, React, Next.js, MUI, axios, Docker, GitHub Actions, Storybook | 2名 / 2 members | フロントエンド実装, 仕様策定, 進捗管理 / Front-end implementation, specification formulation, progress management |
 
-IoT調理家電のPoC開発（レシピ作成Webアプリ）
+## Sky
 
-| チーム構成          | 担当              | 使用技術                                  |
-| :------------- | :-------------- | :------------------------------------ |
-| 5名(顧客3名, 自社2名) | 仕様検討, フロントエンド実装 | JavaScript, jQeury, BootStrap, GitHub |
+- **位置 / Location**: 品川, 東京 / Shinagawa, Tokyo
 
-### (Sky)2019年7月-2020年1月
+| 期間 / Period | 役職 / Position | プロジェクト / Project | 使用技術 / Technologies | チーム構成 / Team | 主な職務内容 / Key Responsibilities |
+|:------------:|:---------------:|:----------------------:|:-----------------------:|:----------------:|:--------------------------------:|
+| 2021年2月-2021年5月 | フロントエンド開発者, リーダー / Front-end Developer, Leader | 検品システムの開発 / Development of Inspection System | TypeScript, React, Webpack | 2名 / 2 members | フロントエンド設計・実装 / Front-end design & implementation |
+| 2020年12月-2021年2月 | フロントエンド開発者, インフラエンジニア / Front-end Developer, Infrastructure Engineer | 観光ICTソリューション開発 / Development of Tourism ICT Solution | TypeScript, React, AWS CodeBuild, AWS EventBridge, AWS S3, AWS CodeCommit | 4名 / 4 members | フロントエンド設計, インフラ設計・構築 / Front-end design, Infrastructure design & build |
+| 2020年7月-2021年5月 | フロントエンド開発者, サブリーダー / Front-end Developer, Sub-leader | 国内大手メーカーの社内向けソリューション開発 / Development of Solutions for Major Domestic Manufacturer | JavaScript, SCSS, jQuery, GitBucket | 5名 (デザイナー1名) / 5 members (including 1 designer) | フロントエンド実装 / Front-end implementation |
+| 2020年2月-6月 | フロントエンド開発者 / Front-end Developer | IoT調理家電のPoC開発 / PoC Development of IoT Cooking Appliances | JavaScript, jQuery, Bootstrap, GitHub | 5名 (顧客3名, 自社2名) / 5 members (3 clients, 2 in-house) | 仕様検討, フロントエンド実装 / Specification discussion, Front-end implementation |
+| 2019年7月-2020年1月 | ソフトウェアエンジニア / Software Engineer | Android車載DAの共通UIライブラリ開発 / Development of Common UI Library for Android Vehicle DA | Android, Java, JUnit, Espresso, Gerrit | 6名 / 6 members | コンポーネント実装・テスト / Component implementation & testing |
 
-Android車載DA（カーナビ）共通UIライブラリ開発
+- **位置 / Location**: 淀川, 大阪 / Yodogawa, Osaka
 
-| チーム構成 | 担当            | 使用技術                                  |
-| :---- | :------------ | :------------------------------------ |
-| 6名    | コンポーネント実装・テスト | Androd, Java, JUnit, Espresso, Gerrit |
+| 期間 / Period | 役職 / Position | プロジェクト / Project | 使用技術 / Technologies | チーム構成 / Team | 主な職務内容 / Key Responsibilities |
+|:------------:|:---------------:|:----------------------:|:-----------------------:|:----------------:|:--------------------------------:|
+| 2019年4月-6月 | 研修生 / Trainee | C言語, Java, Androidアプリ開発の研修 / Training in C, Java, Android App Development | C, Java, Android | N/A | N/A |
 
-### (Sky)2019年4月-6月
+## 教育歴 / Education
 
-Sky株式会社に新卒入社。C言語, Java, Androidアプリ開発の研修。
+### 京都大学文学部人文学科 / Kyoto University, Faculty of Letters, Department of Humanities
 
-## omake
 
-思想 <https://petite-grass-e20.notion.site/Asazu-Taiga-096963096b924e209054a9f670bd7095>
+- **期間 / Duration**: 2014 - 2019
+- **専攻 / Major**: 日本哲学史 / History of Japanese Philosophy
 
-以上
+## 受賞歴 / Awards & Honors
+
+- **2021**: MVP of the year bronze (toridori)
+

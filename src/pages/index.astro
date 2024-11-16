@@ -1,69 +1,137 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Card from "../layouts/Card.astro";
+import { Image } from "astro:assets";
+import amethyst from "./amethyst.png";
 ---
 
 <Layout title="職務経歴書" author="淺津大雅" timestamp="2024-11-16">
-  <Card >
-    <p>React・Next.js・TypeScript を利用したWebフロントエンド開発を主に行なっています。現職（株式会社JADE）では、大量の検索データを効率的にわかりやすく表示するダッシュボード UI の開発に従事しています。</p>
-    <p>Next.js App Router など、最新のフロントエンド技術を積極的に取り入れ、よりパフォーマンスの高い Web アプリケーションを提供することを目指しています。</p>
+  <Card>
+    <p>
+      React・Next.js・TypeScript
+      を利用したWebフロントエンド開発を主に行なっています。現職（株式会社JADE）では、大量の検索データを効率的にわかりやすく表示するダッシュボード
+      UI の開発に従事しています。
+    </p>
+    <p>
+      Next.js App Router
+      など、最新のフロントエンド技術を積極的に取り入れ、よりパフォーマンスの高い
+      Web アプリケーションを提供することを目指しています。
+    </p>
   </Card>
-  <Card title="職務経歴">
-    <div class="rounded-lg border border-slate-700">
-      <table class="w-full text-left border-collapse">
-        <thead>
-          <tr class="text-white">
-            <th class="border border-slate-700 p-2">在籍期間</th>
-            <th class="border border-slate-700 p-2">会社名</th>
-            <th class="border border-slate-700 p-2">職務内容</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- JADE(正社員) -->
-          <tr>
-            <td class="border border-slate-700 p-2">2023-01 ~ 現在</td>
-            <td class="border border-slate-700 p-2">
-              <a href="https://ja.dev" target="_blank">株式会社JADE</a>
-            </td>
-            <td class="border border-slate-700 p-2">
-              Amethyst のフロントエンドエンジニアとして、Google Search Console が提供する、URL Inspection API から取得したクロール・インデックス状況を可視化する Index Worker 機能や、BigQuery エクスポートを活用した検索データ分析を行う Search Analytics 機能等の開発を行っています。
-              <div class="mt-2 space-y-0">
-                <span class="font-bold">利用技術: Amethyst frontend v2</span>
-                <ul>
-                  <li><a href="https://reactjs.org/" target="_blank">React</a></li>
-                  <li><a href="https://nextjs.org/" target="_blank">Next.js (App Router)</a></li>
-                  <li><a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a></li>
-                  <li><a href="https://urql.dev/" target="_blank">URQL</a> (GraphQL)</li>
-                  <li><a href="https://recharts.org/en-US/" target="_blank">Recharts</a></li>
-                  <li><a href="https://shadcn.github.io/ui/" target="_blank">shadcn/ui</a></li>
-                </ul>
-              </div>
+  <!-- JADE(正社員) -->
+  <Card id="jade" title="株式会社JADE" description="2023-01 - 現在">
+    <p>
+      Amethyst のフロントエンドエンジニアとして、Google Search
+      ConsoleやGA4が提供するAPI・エクスポート機能を活用した各種機能を開発しています。
+      必要に応じ、バックエンド（GraphQLサーバー、Go）の開発も行っています。
+    </p>
 
-              <div class="mt-2 space-y-0">
-                <span class="font-bold">利用技術: <a href="https://amethy.st/" target="_blank">Amethyst LP</a></span>
-                <ul>
-                  <li><a href="https://astro.build/" target="_blank">Astro</a></li>
-                  <li><a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a></li>
-                </ul>
-              </div>
-            </td>
-          </tr>
-          <!-- JADE(副業) -->
-          <tr>
-            <td class="border border-slate-700 p-2">2022-04 ~ 2023-01</td>
-            <td class="border border-slate-700 p-2">株式会社JADE(副業)</td>
-            <td class="border border-slate-700 p-2">副業として参画し、Amethyst Public Beta の立ち上げに向けたフロントエンド開発を行いました。</td>
-          </tr>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+      <a href="https://amethy.st/" target="_blank">
+        <Image
+          src={amethyst}
+          alt="Amethyst"
+          class="w-full h-auto rounded-lg border border-slate-600"
+        />
+      </a>
+      <div>
+        <p>
+          <span>利用技術: Amethyst frontend v2</span>
+          <ul>
+            <li><a href="https://reactjs.org/" target="_blank">React</a></li>
+            <li>
+              <a href="https://nextjs.org/" target="_blank"
+                >Next.js (App Router)</a
+              >
+            </li>
+            <li>
+              <a href="https://www.typescriptlang.org/" target="_blank"
+                >TypeScript</a
+              >
+            </li>
+            <li>
+              <a href="https://urql.dev/" target="_blank">URQL</a> (GraphQL)
+            </li>
+            <li>
+              <a href="https://recharts.org/en-US/" target="_blank">Recharts</a>
+            </li>
+            <li>
+              <a href="https://ui.shadcn.com/" target="_blank">shadcn/ui</a>
+            </li>
+          </ul>
+        </p>
 
-          <!-- toridori -->
-          <tr>
-            <td class="border border-slate-700 p-2">2020-10 ~ 2022-11</td>
-            <td class="border border-slate-700 p-2"><a href="https://toridori.co.jp/" target="_blank">株式会社トリドリ</a></td>
-            <td class="border border-slate-700 p-2">
-            </td>
-          </tr>
-        </tbody>
-      </table>
+        <p>
+          <span>利用技術: バックエンド</span>
+          <ul>
+            <li><a href="https://go.dev/" target="_blank">Go</a></li>
+            <li><a href="https://gqlgen.com/" target="_blank">gqlgen</a></li>
+          </ul>
+        </p>
+
+        <p>
+          <span
+            >利用技術: <a href="https://amethy.st/" target="_blank"
+              >Amethyst LP</a
+            ></span
+          >
+          <ul>
+            <li><a href="https://astro.build/" target="_blank">Astro</a></li>
+            <li>
+              <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a
+              >
+            </li>
+          </ul>
+        </p>
+      </div>
     </div>
+  </Card>
+
+  <!-- JADE(副業) -->
+  <Card
+    id="jade-sub"
+    title="株式会社JADE(副業)"
+    description="2022-04 - 2023-01"
+  >
+    <p>
+      副業として参画し、Amethyst Public Beta
+      の立ち上げに向けたフロントエンド開発を行いました。
+    </p>
+
+    <!-- 利用した技術 -->
+    <p>
+      <span>利用技術: Amethyst frontend v1</span>
+      <ul>
+        <li><a href="https://reactjs.org/" target="_blank">React</a></li>
+        <li>
+          <a href="https://nextjs.org/" target="_blank"
+            >Next.js (Pages Router)</a>
+        </li>
+        <li><a href="https://chakra-ui.com/" target="_blank">Chakra UI</a></li>
+        <li>
+          <a href="https://recharts.org/en-US/" target="_blank">Recharts</a>
+        </li>
+        <li>
+          <a href="https://www.apollographql.com/docs/react/" target="_blank"
+            >Apollo Client</a
+          >
+        </li>
+      </ul>
+    </p>
+  </Card>
+
+  <!-- toridori -->
+  <Card id="toridori" title="株式会社トリドリ" description="2020-10 - 2022-11">
+    <p>
+      インフルエンサーマーケティングプラットフォームである <a
+        href="https://top-marketing.toridori.me/"
+        target="_blank">toridori marketing</a
+      > のフロントエンドと、社内向け管理画面を開発しました。 toridori marketing の開発を前任者から引き継ぎ、新機能の提案・ドキュメンテーション・開発のリードを行いました。
+    </p>
+  </Card>
+
+  <!-- Sky -->
+  <Card id="sky" title="Sky株式会社" description="2018-04 - 2020-09">
+    <p>新卒で入社し、Android 開発・Web フロントエンド開発を行いました。</p>
   </Card>
 </Layout>

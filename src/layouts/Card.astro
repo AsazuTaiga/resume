@@ -1,13 +1,26 @@
 ---
 export interface Props {
-	title?: string;
+  id?: string;
+  title?: string;
+  description?: string;
 }
-const { title } = Astro.props;
+const { id, title, description } = Astro.props;
 ---
 
-<div class="p-8 space-y-4 bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg border border-slate-700">
-	{title && <h2 class="text-xl m-0 font-bold">{title}</h2>}
-	<div class="text-sm leading-relaxed">
-		<slot />
-	</div>
+<div id={id} class="p-8 space-y-4 rounded-lg border border-slate-400">
+  {
+    (title || description) && (
+      <div class="flex flex-row justify-between items-start flex-wrap gap-2">
+        {title && <h2 class="text-xl m-0">{title}</h2>}
+        {description && (
+          <span class="text-sm leading-relaxed text-slate-600">
+            {description}
+          </span>
+        )}
+      </div>
+    )
+  }
+  <div class="text-sm leading-relaxed">
+    <slot />
+  </div>
 </div>

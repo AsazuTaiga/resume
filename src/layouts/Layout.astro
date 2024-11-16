@@ -9,54 +9,40 @@ const { title, author, timestamp } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="ja" class="text-white bg-slate-900">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="description" content={`${title} - ${author}`} />
 		<meta name="viewport" content="width=device-width" />
+		<meta name="author" content={author} />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body class="flex flex-col gap-4 items-center p-16">
-		<div class="flex flex-col gap-4 items-center">
+	<body class="flex flex-col p-4 items-center">
+		<div class="w-full max-w-screen-md">
+		<div class="flex flex-col items-center">
 			<h1 class="text-2xl font-bold">{title}</h1>
-			<div class="flex items-center gap-2">
-				<time datetime={timestamp}>{new Date(timestamp).toLocaleDateString("ja-JP", { year: "numeric", month: "long", day: "numeric" })}</time>
-				<p>{author}</p>
-			</div>
 		</div>
-		<slot />
+		<p class="text-sm flex justify-end gap-2">
+			<time datetime={timestamp}>{new Date(timestamp).toLocaleDateString("ja-JP", { year: "numeric", month: "long", day: "numeric" })}</time>
+			<span>{author}</span>
+		</p>
+		<main class="flex flex-col gap-4">
+				<slot />
+			</main>
+		</div>
 	</body>
 </html>
 <style is:global>
-	:root {
-		--accent: 136, 58, 234;
-		--accent-light: 224, 204, 250;
-		--accent-dark: 49, 10, 101;
-		--accent-gradient: linear-gradient(
-			45deg,
-			rgb(var(--accent)),
-			rgb(var(--accent-light)) 30%,
-			white 60%
-		);
-		* {
-			color: #fff;
-		}
-	}
 	html {
-		font-family: system-ui, sans-serif;
-		background: #13151a;
+		font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
 	}
-	code {
-		font-family:
-			Menlo,
-			Monaco,
-			Lucida Console,
-			Liberation Mono,
-			DejaVu Sans Mono,
-			Bitstream Vera Sans Mono,
-			Courier New,
-			monospace;
+
+	a {
+		color: #98abf1;
+	}
+	a:visited {
+		color: #e69dff;
 	}
 </style>
